@@ -77,7 +77,6 @@ def main():
                     sal = float(input("Новая зарплата: "))
                     year = int(input("Новый год: "))
 
-                    # ВЫЗОВ ТВОЕГО МЕТОДА ИЗ КЛАССА:
                     staff_list[choice - 1].update_data(name, pos, sal, year)
                     print("Данные обновлены.")
                 else:
